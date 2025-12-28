@@ -36,7 +36,26 @@
       "Directions",
       "Street view",
       "Offline maps"
-    ]
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/maps"
+    },
+    "featured": false,
+    "tags": [
+      "utility",
+      "tools",
+      "maps"
+    ],
+    "releaseDate": "2024-12-28",
+    "support": "https://github.com/zos-apps/maps/issues",
+    "changelog": "https://github.com/zos-apps/maps/releases"
   },
   "scripts": {
     "build": "tsup",
