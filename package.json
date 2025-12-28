@@ -21,7 +21,22 @@
         "height": 700
       },
       "resizable": true
-    }
+    },
+    "about": "Interactive maps with navigation and location search.",
+    "help": [
+      "Search for locations",
+      "Click for directions",
+      "Scroll to zoom"
+    ],
+    "docs": "https://zos-apps.github.io/maps",
+    "site": "https://github.com/zos-apps/maps",
+    "features": [
+      "Map navigation",
+      "Location search",
+      "Directions",
+      "Street view",
+      "Offline maps"
+    ]
   },
   "scripts": {
     "build": "tsup",
@@ -54,5 +69,13 @@
     "maps",
     "macos",
     "desktop"
-  ]
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
